@@ -696,6 +696,11 @@ img {
     transform: translateX(5px);
 }
 
+.services-cta {
+    margin-top: 50px;
+    text-align: center;
+}
+
 /* --- 9. Testimonials Section --- */
 .testimonials-grid {
     display: grid;
@@ -931,6 +936,24 @@ img {
 
 .contact-card .btn-primary:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-white-outline {
+    background: transparent;
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-white-outline:hover {
+    background: var(--white);
+    color: var(--primary-dark);
 }
 
 /* --- 12. Footer --- */
